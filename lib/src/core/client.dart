@@ -382,7 +382,7 @@ class Web3Client {
     return signTransactionRaw(
       signingInput.transaction,
       signingInput.credentials,
-      chainId: chainId,
+      chainId: null,
     );
   }
 
